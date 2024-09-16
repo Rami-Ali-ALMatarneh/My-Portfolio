@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/sketchy/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">   
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+
+     <link rel="icon" href="Image/titleImage.jpeg/favicon.ico" type="image/x-icon">
+
+    <title>Portfolio</title>
+</head>
+<body class="bg-primary">
+    <!--Navbar-->
+    <nav class="navbar border-white navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand fs-3" href="index.html"><i class="fa fa-code"></i> Rami Matarneh</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Education">Education</a>
+                    </li>  
+                     <li class="nav-item"></li>
+                        <a class="nav-link" href="#Project">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="File/MyCv.pdf" class="btn btn-light p-1" download>Resume <i class="fa fa-download"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--end Navbar-->
+    
+    <!--Home Section-->
+    <div class="container mt-lg-4 mb-4 pt-5 pb-5">
+        <div class="HomeSection row p-3 pt-5 pb-5 d-flex align-items-center justify-content-between pt-md-5 pb-md-5 gap-5  mb-4 rounded text-body-emphasis bg-body-primary" style=" width: 100%;padding-left: 15px; padding-right: 15px;">
+            <!-- Text Content on the Left (Center-aligned) -->
+            <div class="col-lg-6 px-0 d-flex flex-column justify-content-center">
+                <h1 class="display-4 fst-italic text-white" style="width: fit-content;">
+                    Hi There,<br>
+                    <span class="animated-text">I'm Rami Matarneh </span>
+                </h1>                
+                  <p class="lead my-3 text-white">Junior Software Engineer | Full Stack Developer | Junior .NET Developer.</p>
+                  <a href="#aboutMe" class="btn btn-secondary d-flex justify-content-center align-items-center gap-2 linkAbout">About Me <span class="d-flex justify-content-center align-items-center p-2 rounded-circle" style="width: 23px;height: 23px;"><i class="fa fa-chevron-down"></i></span></a>
+                  <!-- Social Media Icons -->
+                    <div class="d-flex gap-3 mt-4 SocialMedia">
+                        <a href="https://www.facebook.com/profile.php?id=100011794534248" target="_blank" class="social-icon  d-flex justify-content-center align-items-center">
+                            <i class="fab fa-facebook fs-6"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rami-almatarneh/" target="_blank" class="social-icon  d-flex justify-content-center align-items-center">
+                            <i class="fab fa-linkedin fs-6"></i>
+                        </a>
+                        <a href="https://www.instagram.com/rami.ali.matarneh/?hl=en" target="_blank" class="social-icon  d-flex justify-content-center align-items-center">
+                            <i class="fab fa-instagram fs-6"></i>
+                        </a>
+                        <a href="https://github.com/Rami-Ali-ALMatarneh?tab=repositories" target="_blank" class="social-icon d-flex justify-content-center align-items-center">
+                            <i class="fab fa-github fs-6"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@opscode59" target="_blank" class="social-icon  d-flex justify-content-center align-items-center">
+                            <i class="fab fa-youtube fs-6"></i>
+                        </a>
+                    </div>
+            </div>
+            <!-- Image on the Right (Show the full image) -->
+            <div class="ImageHome col-lg-6  px-0 d-flex justify-content-center align-items-center" style="overflow: hidden;border-radius: 50%;max-width: 400px; max-height: 400px;">
+                <img src="Image/imageProfile.png" alt="Blog Image" class="img-fluid rounded" style="max-width: 400px; max-height: 400px; object-fit: cover;z-index: 100;">
+            </div>
+        </div>
+    </div>
+    <!--end Home Section-->
+
+    <!-- about Section-->
+    <div id="aboutMe" class="py-5 bg-secondary">
+        <div class="container text-white" style="padding-left: 15px; padding-right: 15px;" data-aos="fade-down" data-aos-duration="1000">
+            <div class="text-center pt-1 pb-5" >
+                <h1 class="pb-3"><i class="fa fa-user"></i> About Me</h1>
+            </div>
+          <div class="row align-items-center pt-3 pb-5">
+            <!-- Left: Image -->
+            <div class="col-md-6 text-center mb-4 mb-md-0">
+                <div class="about-image">
+                    <img src="Image/aboutme.jfif" alt="About Me" class="img-fluid image" style="border-radius: 30px; height: 450px;">
+                </div>
+            </div>
+            
+      
+            <!-- Right: Text Content -->
+        <!-- Right: Text Content -->
+            <div class="col-md-6 text-white d-flex flex-column align-items-start" style="height: 450px;" data-aos="fade-down" data-aos-duration="1000">
+                <div class="about-text h-100 fw-normal d-flex flex-column align-items-start">
+                    <h2 class="animate-aboutMe">I'm Rami</h2>
+                    <p class="animate-aboutMe fw-bold">Junior Software Engineer | Full Stack Developer | Junior .NET Developer.</p>
+                    <p class="animate-aboutMe text-gray-800">
+                        I am a passionate developer with experience in both front-end and back-end technologies. I love creating web applications that are not only functional but also visually engaging.
+
+                        I graduated from Jordan University of Science and Technology with a Bachelor’s degree in Software Engineering. and I have expertise in .NET development and a range of other technologies.
+                        
+                        Let’s build something amazing together!</p>
+                    <p class="animate-aboutMe">email : ramimatarneh76@gmail.com</p>
+                    <p class="animate-aboutMe">place : Amman, Jordan</p>
+                    <a href="File/MyCv.pdf" class="btn btn-light mt-5 animate-aboutMe Resume" download>Resume <i class="fa fa-download"></i></i></a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!--end about Section-->
+
+
+   <!-- Skills Section-->
+<div class="container text-white py-5" id="Skills" style="padding-left: 15px; padding-right: 15px;">
+    <div class="text-center pt-1 pb-5" data-aos="fade-down" data-aos-duration="1000">
+        <h1 class="pb-3"><i class="fa fa-code"></i> Skills & Abilities</h1>
+    </div>
+
+    <div class="row g-4  p-3" style="border-radius: 10px;" data-aos="fade-down" data-aos-duration="1000">
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>C#</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>HTML</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>CSS</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>JavaScript</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>Bootstrap</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>Angular</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>TypeScript</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>SQL</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>2-Tier Architecture</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>3-Tier Architecture</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>Git & GitHub</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>JSON</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>ASP.NET Core</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>OOP</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>SignalR</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>Chart.js</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>AJAX</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>jQuery</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>C++</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>Python</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>Azure DevOps</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>MVC</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>Repository Pattern</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="grid-item d-flex justify-content-center align-items-center">
+                <h4>VS & VS Code</h4>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--end Skills Section-->
+
+ <!-- Education Section -->
+ <div id="Education" class="py-5 bg-secondary">
+    <div class="container text-white" style="padding-left: 15px; padding-right: 15px;">
+        <div class="text-center pt-1 pb-5" data-aos="fade-down" data-aos-duration="1000">
+            <h1 class="pb-3 mb-0"><i class="fa fa-graduation-cap"></i> My Education</h1>
+            <h5 class="fw-normal">Education is not the learning of facts, but the training of the mind to think.</h5>
+        </div>
+        <div id="educationCard" class="education-card-style row g-0 border overflow-hidden flex-md-row mb-4 shadow position-relative"
+             data-aos="fade-up">
+            <div class="col-12 col-md-4 col-lg-auto d-flex align-items-center justify-content-center">
+                <img src="Image/JustPhoto.jpg" alt="Thumbnail" class="img-fluid" style="width:100%;height: 100%;">
+            </div>
+            <div class="col-12 col-md p-4 d-flex flex-column position-static">
+                <h3 class="mb-0">Bachelor Of Software Engineering</h3>
+                <p class="card-text fw-normal mt-1 mb-3">Jordan University of Science and Technology | College of Computer & Information Technology</p>
+                <h3 class="mb-0">2020 - 2024 | Completed</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Education Section -->
+<!-- Project Section -->
+<div id="Project" class="py-5">
+    <div class="container text-white" style="padding-left: 15px; padding-right: 15px;">
+        <div class="text-center pt-1 pb-5" data-aos="fade-down" data-aos-duration="1000">
+            <h1 class="pb-3 mb-0"><i class="fa fa-folder-open"></i> Projects Made</h1>
+            <h5 class="fw-normal">You can view all my projects on <a class="text-white" href="https://github.com/Rami-Ali-ALMatarneh?tab=repositories">GitHub</a>, including those detailed here.</h5>
+
+        </div>
+
+        <div class="row text-center" data-aos="fade-down" data-aos-duration="1000">
+            <!-- Visible Cards -->
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Image/ProjectImg/AMS.png" alt="Project Image">
+                    </div>
+                    <div class="project-hover">
+                        <div class="project-content text-start bg-secondary">
+                            <h5>Allocation Management System</h5>
+                        </div>
+                        <p>Created during my Tech Process Solutions training, this ASP.NET Core MVC project helps manage employee allocations and project progress. It optimizes resource use and prevents overallocation. As team leader, I guided development and task distribution for effective execution.</p>
+                        <a href="https://github.com/Rami-Ali-ALMatarneh/Allocation-Management-System" target="_blank" class="btn btn-secondary">View Project <i class="fa fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Image/ProjectImg/sccs.png" alt="Project Image">
+                    </div>
+                    <div class="project-hover">
+                        <div class="project-content text-start bg-secondary">
+                            <h5>Smoking Cessation Clinic JUST University</h5>
+                        </div>
+                        <p>I developed the Smoking Cessation Clinics System (SCCS) for my graduation project at the University of Science and Technology Clinic. It manages patient bookings, appointments, and treatments, with real-time chat and feedback features. Built with ASP.NET Core Web API and Angular 16, it uses a 2-tier architecture for scalability and efficiency.</p>
+                        <a href="https://github.com/opsCode59/SCCS_JUST" target="_blank" class="btn btn-secondary">View Project <i class="fa fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Image/ProjectImg/BookLibrary.png" alt="Project Image">
+                    </div>
+                    <div class="project-hover">
+                        <div class="project-content text-start bg-secondary">
+                            <h5>Book Library</h5>
+                        </div>
+                        <p> A project I built to create my own library in case I want to store any book in it. This site works as a library containing a group of book categories and books. I built it using user authentication and authorization permissions. I built it using ASP.NET Core MVC.                        </p>
+                        <a href="https://github.com/Rami-Ali-ALMatarneh/BookLibraryWebsite" class="btn btn-secondary">View Project <i class="fa fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Image/ProjectImg/pizzeria.png" alt="Project Image">
+                    </div>
+                    <div class="project-hover">
+                        <div class="project-content text-start bg-secondary">
+                            <h5>PIZZERIA</h5>
+                        </div>
+                        <p>Pizza website - a project I built for a restaurant. This website is one of the designs for this restaurant and is one of the best designs I have created.</p>
+                        <a href="https://github.com/Rami-Ali-ALMatarneh/Project4" class="btn btn-secondary">View Project <i class="fa fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Image/ProjectImg/joexport.png" alt="Project Image">
+                    </div>
+                    <div class="project-hover">
+                        <div class="project-content text-start bg-secondary">
+                            <h5>JoExport</h5>
+                        </div>
+                        <p> "JoExport" project, an e-commerce website for selling products. The project was developed using ASP.NET Core MVC with clean code practices and incorporated design patterns, the Repository Pattern, and ASP.NET Core Identity for authentication. Entity Framework (EF) Core was used for data 	management, while SOLID design principles and Bootstrap ensured a well-structured and responsive design.</p>
+                        <a href="https://github.com/Rami-Ali-ALMatarneh/JoExport" class="btn btn-secondary">View Project <i class="fa fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+                        <!-- Last two initially hidden -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-none" id="extra-cards">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Image/ProjectImg/employeeManagement.png" alt="Project Image">
+                    </div>
+                   
+                    <div class="project-hover">
+                         <div class="project-content bg-secondary">
+                        <h5>employee Management</h5>
+                    </div>
+                        <p>Built with ASP.NET Core MVC after my course at Pioneers Academy, this project manages employee details with CRUD operations and SQL Server integration via Entity Framework Core. It uses ASP.NET Identity for secure, role-based authentication and features a responsive Bootstrap design and MVC architecture for clear separation of concerns.</p>
+                        <a href="https://github.com/Rami-Ali-ALMatarneh/ProjectEmployeeManagement" class="btn btn-secondary">View Project <i class="fa fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-none" id="extra-cards-2">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Image/ProjectImg/BlackList.png" alt="Project Image">
+                    </div>
+                    <div class="project-hover">
+                        <div class="project-content bg-secondary">
+                        <h5>Black List</h3>
+                    </div>
+                        <p>Black List - a project I built for a restaurant. This website is one of the designs for this restaurant and is one of the best designs I have created.</p>
+                        <a href="https://github.com/Rami-Ali-ALMatarneh/BlackList" class="btn btn-secondary">View Project <i class="fa fa-code"></i></a>
+                    </div>
+                </div>
+        </div>
+        
+        <!-- View More Button -->
+        <div class="text-center mt-5">
+            <button class="btn btn-secondary" style="width: 250px;" id="view-more-btn">View More <i class="fa fa-chevron-right"></i></button>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- end Project Section -->
+
+
+<!-- Experience section -->
+<div id="Experience" class="bg-secondary py-5">
+    <div class="container text-white">
+        <div class="text-center pt-1 pb-5" data-aos="fade-down" data-aos-duration="1000">
+            <h1 class="pb-3 mb-0"><i class="fa fa-briefcase"></i> Experience</h1>
+        </div>
+        <ul class="timeline p-0 m-0 w-100" data-aos="fade-down" data-aos-duration="1000">
+            <li class="timeline-item bg-secondary">
+                <div class="timeline-date bg-light text-primary fw-bold">Full-stack Developer Training</div>
+                <div class="timeline-title d-flex justify-content-between fw-bold">
+                    <div>Future Advanced Internet Solutions (FUAIS)</div>
+                    <div>Aug 2023 - Oct 2023</div>
+                </div>
+                <div class="timeline-description">
+                    During the training, I developed the "JoExport" project, an e-commerce website for selling products. I used ASP.NET Core MVC and followed clean code practices, incorporating design patterns such as the Repository Pattern and ASP.NET Core Identity for authentication. Entity Framework (EF) Core managed the data, while SOLID principles and Bootstrap ensured a well-structured, responsive design.
+                </div>
+            </li>
+            <li class="timeline-item bg-secondary">
+                <div class="timeline-date bg-light text-primary fw-bold">Software Engineer Trainee</div>
+                <div class="timeline-title d-flex justify-content-between fw-bold">
+                    <div>Tech Process Solutions (TPS)</div>
+                    <div>Aug 2023 - Oct 2023</div>
+                </div>
+                <div class="timeline-description">
+                    I gained hands-on experience with SQL databases, ASP.NET Core, MVC, EF Core, and Bootstrap, and developed skills in creating APIs, real-time communication with SignalR, and authentication with Microsoft Identity. I also worked with jQuery DataTables, Hangfire, Chart.js, and was introduced to Angular. I practiced AJAX, design patterns, RDLC reports, IIS publishing, and used Git, Azure DevOps, and 3-tier architecture.
+                    <br><br>
+                    As the leader of the Allocation Management System project, I managed the development of a web application for employee assignment tracking. I handled Git setup, team roles, project requirements, database design, and project planning, using a 3-tier architecture to enhance resource management and project tracking.
+                </div>
+            </li>
+            <!--
+            <li class="timeline-item bg-secondary hidden-itemExperience">
+                <div class="timeline-date bg-light text-primary fw-bold">Software Engineer Trainee</div>
+                <div class="timeline-title d-flex justify-content-between fw-bold">
+                    <div>Tech Process Solutions (TPS)</div>
+                    <div>Aug 2023 - Oct 2023</div>
+                </div>
+                <div class="timeline-description">
+                    I gained hands-on experience with SQL databases, ASP.NET Core, MVC, EF Core, and Bootstrap, and developed skills in creating APIs, real-time communication with SignalR, and authentication with Microsoft Identity. I also worked with jQuery DataTables, Hangfire, Chart.js, and was introduced to Angular. I practiced AJAX, design patterns, RDLC reports, IIS publishing, and used Git, Azure DevOps, and 3-tier architecture.
+                    <br><br>
+                    As the leader of the Allocation Management System project, I managed the development of a web application for employee assignment tracking. I handled Git setup, team roles, project requirements, database design, and project planning, using a 3-tier architecture to enhance resource management and project tracking.
+                </div>
+            </li>
+        -->
+        </ul>
+        <div class="text-center my-4">
+            <button class="btn btn-light" id="toggleViewBtnExperience">View All</button>
+        </div>
+    </div>
+</div>
+<!-- end Experience section -->
+
+<!--  Contact section -->
+<div id="Contact" class="bg-primary py-5">
+    <div class="container text-white" style="padding-left: 15px; padding-right: 15px;">
+        <div class="text-center pt-1 pb-5" data-aos="fade-down" data-aos-duration="1000">
+            <h1 class="pb-3 mb-0"><i class="fa fa-message"></i> Contact Me</h1>
+        </div>
+
+        <div class="content" data-aos="fade-down" data-aos-duration="1000">
+            <div class="left-side">
+              <div class="address details w-100">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Address</div>
+                <div class="text-one">Amman, Jordan</div>
+              </div>
+              <div class="phone details w-100">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Phone</div>
+                <div class="text-one">+9627 7692 4478</div>
+              </div>
+              <div class="email details w-100">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">ramimatarneh76@gmail.com</div>
+                <div class="text-one">opscode59@gmail.com</div>
+
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="topic-text">Send me a message</div>
+              <p class="fw-normal">If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+              <form id="contactForm" action="https://formsubmit.co/ramimatarneh76@gmail.com" method="POST" target="_blank">
+                <div class="mb-3 input-box">
+                    <label for="from_name" class="form-label">Name</label>
+                    <input type="text" id="from_name" class="form-control" name="name" placeholder="Enter your name" required>
+                </div>
+    
+                <div class="mb-3 input-box">
+                    <label for="from_email" class="form-label">Email</label>
+                    <input type="email" id="from_email" class="form-control" name="email" placeholder="Enter your email" required>
+                </div>
+    
+                <div class="mb-3 input-box">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" id="subject" class="form-control" name="subject" placeholder="Enter the subject" required>
+                </div>
+    
+                <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="message" rows="4" name="message" placeholder="Write your message here..." required></textarea>
+                </div>
+    
+                <div class="d-grid gap-2 mt-5 SendNow" style="cursor: pointer;">
+                    <button type="submit" class="btn btn-light fw-bold text-primary" style="width: 250px;">Send Now</button>
+                </div>
+            </form>
+          </div>
+          </div>
+    </div>
+</div>
+<!-- end Contact section -->
+
+
+<!--footer section-->
+<!-- Footer Section -->
+<footer class="bg-dark text-white py-4" style="padding-left: 15px; padding-right: 15px;">
+    <div class="container">
+      <div class="row">
+        <!-- Name/Company Section -->
+        <div class="col-lg-6 col-md-6 col-12  mb-3 p-0">
+          <h2>Rami Matarneh</h2>
+          <p class="fw-normal">
+            Thank you for visiting my personal portfolio website. Connect with me over socials.
+            <br><br>
+            Keep Rising 🚀. Connect with me over live chat!</p>
+        </div>
+  
+        <!-- Links Section -->
+        <div class="col-lg-3 col-md-6 col-12 mb-3 p-0">
+          <h2 >Quick Links</h2>
+          <ul class="list-unstyled fw-normal">
+            <li class="d-flex justify-content-start align-items-center "><span class="rounded-circle d-flex justify-content-center align-items-center bg-light text-primary" style="width: 15px; height: 15px;margin-right: 5px;"><i class="fa fa-chevron-right" style="font-size: 10px;"></i></span> <a href="index.html" class="text-white text-decoration-none">Home</a></li>
+            <li class="d-flex justify-content-start align-items-center "><span class="rounded-circle d-flex justify-content-center align-items-center bg-light text-primary" style="width: 15px; height: 15px;margin-right: 5px;"><i class="fa fa-chevron-right" style="font-size: 10px;"></i></span><a href="#aboutMe" class="text-white text-decoration-none">About</a></li>
+            <li class="d-flex justify-content-start align-items-center "><span class="rounded-circle d-flex justify-content-center align-items-center bg-light text-primary" style="width: 15px; height: 15px;margin-right: 5px;"><i class="fa fa-chevron-right" style="font-size: 10px;"></i></span><a href="#Skills" class="text-white text-decoration-none">Skills</a></li>
+            <li class="d-flex justify-content-start align-items-center "><span class="rounded-circle d-flex justify-content-center align-items-center bg-light text-primary" style="width: 15px; height: 15px;margin-right: 5px;"><i class="fa fa-chevron-right" style="font-size: 10px;"></i></span><a href="#Education" class="text-white text-decoration-none">Education</a></li>
+            <li class="d-flex justify-content-start align-items-center "><span class="rounded-circle d-flex justify-content-center align-items-center bg-light text-primary" style="width: 15px; height: 15px;margin-right: 5px;"><i class="fa fa-chevron-right" style="font-size: 10px;"></i></span><a href="#Project" class="text-white text-decoration-none">Project</a></li>
+            <li class="d-flex justify-content-start align-items-center "><span class="rounded-circle d-flex justify-content-center align-items-center bg-light text-primary" style="width: 15px; height: 15px;margin-right: 5px;"><i class="fa fa-chevron-right" style="font-size: 10px;"></i></span><a href="#Experience" class="text-white text-decoration-none">Experience</a></li>
+            <li class="d-flex justify-content-start align-items-center "><span class="rounded-circle d-flex justify-content-center align-items-center bg-light text-primary" style="width: 15px; height: 15px;margin-right: 5px;"><i class="fa fa-chevron-right" style="font-size: 10px;"></i></span><a href="#Contact" class="text-white text-decoration-none">Contact</a></li>
+
+          </ul>
+        </div>
+        <!-- Social Media Links Section -->
+        <div class="col-lg-3 col-md-6 col-12  mb-3 p-0">
+          <h2 >Follow Me</h2>
+          <div>
+            <div class="d-flex gap-3 mt-4 SocialMedia">
+                <a href="https://www.facebook.com/profile.php?id=100011794534248" target="_blank" class="social-icon  d-flex justify-content-center align-items-center">
+                    <i class="fab fa-facebook fs-6"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/rami-almatarneh/" target="_blank" class="social-icon  d-flex justify-content-center align-items-center">
+                    <i class="fab fa-linkedin fs-6"></i>
+                </a>
+                <a href="https://www.instagram.com/rami.ali.matarneh/?hl=en" target="_blank" class="social-icon  d-flex justify-content-center align-items-center">
+                    <i class="fab fa-instagram fs-6"></i>
+                </a>
+                <a href="https://github.com/Rami-Ali-ALMatarneh?tab=repositories" target="_blank" class="social-icon d-flex justify-content-center align-items-center">
+                    <i class="fab fa-github fs-6"></i>
+                </a>
+                <a href="https://www.youtube.com/@opscode59" target="_blank" class="social-icon  d-flex justify-content-center align-items-center">
+                    <i class="fab fa-youtube fs-6"></i>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <p class="mb-0">&copy; 2024 Rami Matarneh. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+<!--end footer section-->
+
+
+
+<!-- Go Up Button -->
+<a href="#" class="go-up-btn text-primary position-fixed bottom-0 end-0 m-4 d-flex justify-content-center align-items-center bg-light rounded-circle" style="width: 50px; height: 50px; display: none;">
+    <i class="fa fa-chevron-up text-primary"></i>
+</a>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <script src="js/js.js"></script> <!-- Link to JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+         document.getElementById('contactForm').addEventListener('submit', function(event) {
+            // Get form values
+            const name = document.getElementById('from_name').value.trim();
+            const email = document.getElementById('from_email').value.trim();
+            const subject = document.getElementById('subject').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            // Name validation: must be between 2 and 50 characters
+            if (name.length < 2 || name.length > 50) {
+                Swal.fire('Error', 'Name must be between 2 and 50 characters.', 'error');
+                event.preventDefault(); // Prevent form submission
+                return;
+            }
+
+            // Email validation: must be a Gmail address
+            const emailPattern = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+            if (!emailPattern.test(email)) {
+                Swal.fire('Error', 'Please enter a valid Gmail address.', 'error');
+                event.preventDefault(); // Prevent form submission
+                return;
+            }
+
+            // Subject validation: must be between 2 and 50 characters
+            if (subject.length < 2 || subject.length > 50) {
+                Swal.fire('Error', 'Subject must be between 2 and 50 characters.', 'error');
+                event.preventDefault(); // Prevent form submission
+                return;
+            }
+
+            // Message validation: must be at least 2 characters
+            if (message.length < 2) {
+                Swal.fire('Error', 'Message must be at least 2 characters long.', 'error');
+                event.preventDefault(); // Prevent form submission
+                return;
+            }
+        });
+    </script>
+
+</body>
+</html>
